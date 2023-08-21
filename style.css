@@ -5,6 +5,12 @@
     box-sizing: border-box;
 }
 
+header {
+    background-color: rgb(18, 18, 178);
+    padding: 1.7rem;
+    text-align: center;
+}
+
 h1{
     font-size: 3rem;
     color: rgb(233, 244, 91);
@@ -15,10 +21,30 @@ h2{
 }
 
 p{
-    margin-bottom: 1.7px;
+    margin-bottom: 1.7rem;
 }
 
 a{
     color: rgb(201, 23, 192);
     cursor: pointer;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.jumbo{
+    height: 350px;
+    background-image: url("./img/cover-bg.png");
+    background-size: cover;
+    background-position: center;
+    padding: 3rem;
+    color: white;
+    text-align: center;
+}
+
+.content{
+    padding: 1.7rem;
+    margin-bottom: 0.8rem;
 }
